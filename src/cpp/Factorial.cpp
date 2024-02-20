@@ -1,8 +1,8 @@
 #include <iostream>
 
-int factorial(int n) {
+long long factorial(int n) {
 
-    int fact = 1;
+    long long fact = 1;
     for (size_t i = 1; i <= n; i++) {
         fact = i*fact;
     }
